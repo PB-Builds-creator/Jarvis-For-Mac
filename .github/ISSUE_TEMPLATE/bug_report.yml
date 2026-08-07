@@ -1,0 +1,47 @@
+name: Bug report
+description: Report a reproducible Jarvis problem without private data
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Do not attach private voice recordings, screenshots, memory databases, credentials, or account identifiers.
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Observed behavior
+      description: What happened, and what did Jarvis claim or display?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+      description: Use harmless sample data and identify any relevant macOS permission state.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Revision or release
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS and hardware
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed private audio, screenshots, memory, secrets, and account details.
+          required: true

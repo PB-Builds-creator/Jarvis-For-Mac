@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools==83.0.0", "wheel==0.47.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jarvis-macos"
+version = "1.0.0"
+description = "Local-first macOS AI agent with voice, memory, model routing, and safe computer control"
+readme = "README.md"
+license = "Apache-2.0"
+authors = [{name = "PB Builds"}]
+requires-python = ">=3.11"
+dependencies = [
+  "mlx-audio==0.4.4",
+  "mlx-lm==0.31.3",
+  "mlx-vlm==0.6.7",
+  "misaki==0.7.4",
+  "soundfile==0.14.0",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: MacOS X",
+  "Operating System :: MacOS",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Desktop Environment",
+]
+
+[project.urls]
+Homepage = "https://github.com/PB-Builds-creator/jarvis-macos-agent"
+Issues = "https://github.com/PB-Builds-creator/jarvis-macos-agent/issues"
+Documentation = "https://github.com/PB-Builds-creator/jarvis-macos-agent/tree/main/docs"
+
+[project.scripts]
+jarvis = "jarvis.__main__:main"
+
+[tool.setuptools]
+packages = ["jarvis"]

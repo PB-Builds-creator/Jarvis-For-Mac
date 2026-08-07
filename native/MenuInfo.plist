@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleExecutable</key><string>Jarvis</string>
+  <key>CFBundleIdentifier</key><string>dev.pbbuilds.jarvis</string>
+  <key>CFBundleName</key><string>Jarvis</string>
+  <key>CFBundleDisplayName</key><string>Jarvis</string>
+  <key>CFBundleVersion</key><string>1.0.0</string>
+  <key>CFBundleShortVersionString</key><string>1.0.0</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>LSMinimumSystemVersion</key><string>14.0</string>
+  <key>LSUIElement</key><true/>
+  <key>NSHighResolutionCapable</key><true/>
+  <key>NSMicrophoneUsageDescription</key>
+  <string>Jarvis uses the microphone only when the owner starts a voice command.</string>
+  <key>NSSpeechRecognitionUsageDescription</key>
+  <string>Jarvis transcribes voice commands on this Mac.</string>
+  <key>NSScreenCaptureDescription</key>
+  <string>Jarvis captures only the active or specifically requested open window when the owner confirms a scan.</string>
+  <key>NSAppleEventsUsageDescription</key>
+  <string>Jarvis controls applications only when directed by the owner.</string>
+  <key>NSCalendarsFullAccessUsageDescription</key>
+  <string>Jarvis reads your agenda and creates events only after you approve the exact change.</string>
+  <key>NSRemindersFullAccessUsageDescription</key>
+  <string>Jarvis reads reminders and creates them only after you approve the exact change.</string>
+  <key>NSContactsUsageDescription</key>
+  <string>Jarvis uses Contacts to resolve people you explicitly name.</string>
+  <key>CFBundleIconFile</key><string>Jarvis.icns</string>
+</dict>
+</plist>
