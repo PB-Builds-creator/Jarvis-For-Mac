@@ -15,7 +15,7 @@ else
   exit 1
 fi
 
-if ! "$PYTHON" -c 'import misaki, numpy' >/dev/null 2>&1; then
+if ! "$PYTHON" -c 'import misaki, numpy, scipy' >/dev/null 2>&1; then
   echo "Test dependencies are missing. Create .venv and install the project as shown in README.md." >&2
   exit 1
 fi

@@ -316,7 +316,10 @@ class VoiceCommandTests(unittest.TestCase):
         self.assertEqual(intent.kind, "local_conversation")
         self.assertFalse(intent.requires_confirmation)
         self.assertEqual(intent.source, "fast_rules_clock")
-        self.assertIn("P.M.", intent.reply)
+        self.assertTrue(
+            "A.M." in intent.reply or "P.M." in intent.reply,
+            intent.reply,
+        )
         self.assertEqual(
             dispatch_voice_intent(intent, confirmed=False, sender=lambda *_: None),
             intent,
