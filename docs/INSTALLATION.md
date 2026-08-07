@@ -12,8 +12,8 @@ Jarvis is currently a source build for Apple-silicon Macs. The installer uses ad
 ## 2. Inspect and verify
 
 ```bash
-git clone https://github.com/PB-Builds-creator/jarvis-macos-agent.git
-cd jarvis-macos-agent
+git clone https://github.com/PB-Builds-creator/Jarvis-For-Mac.git
+cd Jarvis-For-Mac
 python3 -m venv .venv
 .venv/bin/python -m pip install --constraint constraints.txt -e .
 ./scripts/verify.sh

@@ -98,8 +98,8 @@ The app can run on macOS 14+, while Apple Foundation Models and the newest trans
 ### Verify the source first
 
 ```bash
-git clone https://github.com/PB-Builds-creator/jarvis-macos-agent.git
-cd jarvis-macos-agent
+git clone https://github.com/PB-Builds-creator/Jarvis-For-Mac.git
+cd Jarvis-For-Mac
 python3 -m venv .venv
 .venv/bin/python -m pip install --constraint constraints.txt -e .
 ./scripts/verify.sh

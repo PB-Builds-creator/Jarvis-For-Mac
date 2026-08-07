@@ -29,9 +29,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/PB-Builds-creator/jarvis-macos-agent"
-Issues = "https://github.com/PB-Builds-creator/jarvis-macos-agent/issues"
-Documentation = "https://github.com/PB-Builds-creator/jarvis-macos-agent/tree/main/docs"
+Homepage = "https://github.com/PB-Builds-creator/Jarvis-For-Mac"
+Issues = "https://github.com/PB-Builds-creator/Jarvis-For-Mac/issues"
+Documentation = "https://github.com/PB-Builds-creator/Jarvis-For-Mac/tree/main/docs"
 
 [project.scripts]
 jarvis = "jarvis.__main__:main"

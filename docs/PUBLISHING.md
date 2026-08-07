@@ -7,11 +7,11 @@ The local repository is prepared for GitHub Desktop. Publish only after `./scrip
 1. Open **GitHub Desktop** and confirm you are signed in as `PB-Builds-creator`.
 2. In the macOS menu bar, click **File → Add Local Repository…**.
 3. Click **Choose…**.
-4. Select `~/Jarvis/Public/jarvis-macos-agent`.
+4. Select the local `Jarvis For Mac` repository folder.
 5. Click **Add Repository**.
-6. Confirm the top repository selector says `jarvis-macos-agent` and the current branch says `main`.
+6. Confirm the top repository selector says `Jarvis For Mac` and the current branch says `main`.
 7. Click **Publish repository** in the top bar.
-8. Set **Name** to `jarvis-macos-agent`.
+8. Set **Name** to `Jarvis-For-Mac`.
 9. Paste this description: `Local-first macOS AI agent with on-device voice, tiered model routing, structured memory, owner verification, and confirmation-gated computer control.`
 10. Leave **Organization** as **None**.
 11. **Uncheck** `Keep this code private`.
@@ -26,7 +26,7 @@ Do not create a second empty repository first. Do not upload anything from `~/Ja
 2. Keep the same description.
 3. Add topics: `macos`, `swift`, `python`, `local-ai`, `ai-agent`, `mlx`, `coreml`, `speech-recognition`, `app-intents`, `sqlite`, `computer-use`, `privacy`.
 4. Enable **Issues** and **Discussions** only if you intend to monitor them.
-5. Open your GitHub profile, choose **Customize your pins**, and pin `jarvis-macos-agent` first.
+5. Open your GitHub profile, choose **Customize your pins**, and pin `Jarvis-For-Mac` first.
 6. Do not create a binary Release yet. The repository documents that Developer ID signing and notarization are still required.
 
 ## LinkedIn

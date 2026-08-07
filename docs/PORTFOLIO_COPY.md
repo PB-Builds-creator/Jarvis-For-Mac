@@ -6,7 +6,7 @@ Use these claims only with the repository URL and the evidence already present i
 
 **Name**
 
-`jarvis-macos-agent`
+`Jarvis-For-Mac`
 
 **Description**
 

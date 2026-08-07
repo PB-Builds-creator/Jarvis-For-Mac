@@ -10,7 +10,7 @@ I build practical AI applications at the intersection of financial markets, work
 
 ## Featured project
 
-### [Jarvis for macOS](https://github.com/PB-Builds-creator/jarvis-macos-agent)
+### [Jarvis for macOS](https://github.com/PB-Builds-creator/Jarvis-For-Mac)
 
 A voice-first local AI agent built with Swift and Python. Jarvis combines on-device speech, tiered model routing, structured SQLite memory, owner-voice verification, and confirmation-gated Mac automation.
 
